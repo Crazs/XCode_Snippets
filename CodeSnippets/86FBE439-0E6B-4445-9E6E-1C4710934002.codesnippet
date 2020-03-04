@@ -10,7 +10,7 @@
 		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) NSDictionary * &lt;#dcitionary#&gt;;
+	<string>@property (nonatomic, strong) NSDictionary * &lt;#dcitionary#&gt;;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>86FBE439-0E6B-4445-9E6E-1C4710934002</string>

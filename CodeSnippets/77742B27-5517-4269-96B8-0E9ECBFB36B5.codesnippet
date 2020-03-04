@@ -10,7 +10,7 @@
 		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) NSArray * &lt;#array#&gt;;
+	<string>@property (nonatomic, strong) NSArray * &lt;#array#&gt;;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>77742B27-5517-4269-96B8-0E9ECBFB36B5</string>

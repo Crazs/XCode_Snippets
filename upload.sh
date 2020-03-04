@@ -2,19 +2,16 @@
 
 #路径配置
 cur_path=$(cd `dirname $0`;pwd)
-work_path="~/library/developer/xcode/userdata"
-work_name='/CodeSnippets'
-curdate="`date +%Y_%m_%d_%H_%M_%S`";
+work_path=${HOME}"/library/developer/xcode/userdata"
+work_name='/codeSnippets'
 
-#备份本地snippets
+echo '本地路径:'$work_path$work_name
+
+#从本地同步
 if [ -d $work_path$work_name ];then
-echo "备份本地代码片段"
-cp -r $work_path$work_name $cur_path$work_name'_'$curdate
+echo "从本地同步代码片段"
+cp -r "$work_path$work_name/." "$cur_path$work_name/"
 else
-echo "创建本地代码片段"
-mkdir $work_path$work_name
+echo "未发现本地代码片段"
 fi
-
-#向本地添加
-cp -r $cur_path$work_name$'/.' $work_path$work_name'/'
 
