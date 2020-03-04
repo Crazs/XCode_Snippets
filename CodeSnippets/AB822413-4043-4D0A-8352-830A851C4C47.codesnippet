@@ -3,26 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>CreateLabel</string>
+	<string>CreateDataSource</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
 		<string>ClassInterfaceVariables</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) UILabel * &lt;#view#&gt;;
-</string>
+	<string>@property (nonatomic, strong) NSMutableArray * dataSource;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BFD14B57-D796-452F-9EBF-730A470B9B09</string>
+	<string>AB822413-4043-4D0A-8352-830A851C4C47</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code CreateLabel</string>
+	<string>My Code CreateDataSource</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

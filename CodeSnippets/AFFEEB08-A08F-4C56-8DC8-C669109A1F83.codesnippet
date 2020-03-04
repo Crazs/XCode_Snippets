@@ -3,26 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>CreateLabel</string>
+	<string>CreateButton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) UILabel * &lt;#view#&gt;;
+	<string>@property (nonatomic, strong) UIButton * &lt;#view#&gt;;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BFD14B57-D796-452F-9EBF-730A470B9B09</string>
+	<string>AFFEEB08-A08F-4C56-8DC8-C669109A1F83</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code CreateLabel</string>
+	<string>My Code CreateButton</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
