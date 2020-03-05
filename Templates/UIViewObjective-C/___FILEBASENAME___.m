@@ -12,7 +12,7 @@
     return self;
 }
 
-- (instancetype)initWithFrame:(NSRect)frame{
+- (instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if (self) {
         [self createSubView];
