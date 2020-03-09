@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>CreateInteger</string>
+	<string>propertyNSInteger</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) NSInteger &lt;#integer#&gt;;
+	<string>property (nonatomic, assign) NSInteger &lt;#integer#&gt;;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B524CCA0-5033-4C40-A1E5-5FB3F34290C4</string>

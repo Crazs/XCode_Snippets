@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>requestAccessForMediaTypeAudio</string>
+	<string>$$$requestAccessForMediaTypeAudio</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeExpression</string>
@@ -11,15 +11,15 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>[AVCaptureDevice requestAccessForMediaType:AVMediaTypeAudio completionHandler:^(BOOL granted) {
-        dispatch_async(dispatch_get_main_queue(), ^{
-            self.micOK = granted;
-            if (granted) {
-                &lt;#func#&gt;
-            }else{
-                [self showHUDMessage:@"未开启麦克风权限"];
-            }
-        });
-    }];</string>
+    dispatch_async(dispatch_get_main_queue(), ^{
+        self.micOK = granted;
+        if (granted) {
+            &lt;#func#&gt;
+        }else{
+            [self showHUDMessage:@"未开启麦克风权限"];
+        }
+    });
+}];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>08488EC8-EA3D-474A-A63E-3A1CEC736345</string>
 	<key>IDECodeSnippetLanguage</key>

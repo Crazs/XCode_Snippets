@@ -3,34 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>$$$requestAccessForMediaTypeVideo</string>
+	<string>$$$UITapGestureRecognizer</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
-		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>  [AVCaptureDevice requestAccessForMediaType:AVMediaTypeVideo completionHandler:^(BOOL granted) {
-      dispatch_async(dispatch_get_main_queue(), ^{
-          self.cameraOK = granted;
-          if (granted) {
-              [self checkJumpPhotoMediaType:mediaType];
-          }else{
-              [self showHUDMessage:@"未开启摄像头权限"];
-          }
-      });
- }];</string>
+	<string>UITapGestureRecognizer * tap3 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapOnV3)];
+    tap3.numberOfTapsRequired = 1;
+    tap3.numberOfTouchesRequired = 1;
+    [v3 addGestureRecognizer:tap3];
+    v3.userInteractionEnabled = YES;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9AEC7139-215C-4B09-B1E5-8E320B501FDD</string>
+	<string>561966BC-B679-4141-9531-14FA7FCE18CF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code 摄像头权限</string>
+	<string>My Code AddTap</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

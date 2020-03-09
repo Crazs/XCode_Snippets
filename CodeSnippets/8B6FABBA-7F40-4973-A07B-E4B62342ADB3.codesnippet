@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>CreateString</string>
+	<string>propertyNSString</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) NSString * &lt;#string#&gt;;
+	<string>property (nonatomic, copy) NSString * &lt;#string#&gt;;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>8B6FABBA-7F40-4973-A07B-E4B62342ADB3</string>

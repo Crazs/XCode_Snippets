@@ -10,9 +10,9 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)createNavigationBar{
-    &lt;#code#&gt;
-}</string>
+	<string>createNavigationBar
+    
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BF6F844B-8E53-4444-BAD7-FB2DC044E217</string>
 	<key>IDECodeSnippetLanguage</key>

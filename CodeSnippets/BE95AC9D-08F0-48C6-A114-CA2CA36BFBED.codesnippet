@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>CreateCollectionView</string>
+	<string>propertyUICollectionView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) UICollectionView * &lt;#view#&gt;;
+	<string>property (nonatomic, strong) UICollectionView * &lt;#view#&gt;;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BE95AC9D-08F0-48C6-A114-CA2CA36BFBED</string>

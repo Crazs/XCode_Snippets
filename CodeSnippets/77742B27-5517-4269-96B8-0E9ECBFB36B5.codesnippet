@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>CreateArray</string>
+	<string>propertyNSArray</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) NSArray * &lt;#array#&gt;;
+	<string>property (nonatomic, strong) NSArray * &lt;#array#&gt;;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>77742B27-5517-4269-96B8-0E9ECBFB36B5</string>

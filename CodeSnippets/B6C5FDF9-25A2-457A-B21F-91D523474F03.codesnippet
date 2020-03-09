@@ -3,34 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>$$$requestAccessForMediaTypeVideo</string>
+	<string>$$$AddSubView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
-		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>  [AVCaptureDevice requestAccessForMediaType:AVMediaTypeVideo completionHandler:^(BOOL granted) {
-      dispatch_async(dispatch_get_main_queue(), ^{
-          self.cameraOK = granted;
-          if (granted) {
-              [self checkJumpPhotoMediaType:mediaType];
-          }else{
-              [self showHUDMessage:@"未开启摄像头权限"];
-          }
-      });
- }];</string>
+	<string>UIImageView * coverImageV = [[UIImageView alloc] init];
+    self.coverImageV = coverImageV;
+    [coverView addSubview:coverImageV];
+    [coverImageV mas_makeConstraints:^(MASConstraintMaker *make) {
+        MAS_top(coverLabel.mas_bottom, CGFloatAutoFit(34));
+        MAS_left(coverView, CGFloatAutoFit(15));
+        MAS_right(coverView, CGFloatAutoFit(-15));
+        MAS_height(CGFloatAutoFit(345));
+    }];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9AEC7139-215C-4B09-B1E5-8E320B501FDD</string>
+	<string>B6C5FDF9-25A2-457A-B21F-91D523474F03</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code 摄像头权限</string>
+	<string>My Code AddView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

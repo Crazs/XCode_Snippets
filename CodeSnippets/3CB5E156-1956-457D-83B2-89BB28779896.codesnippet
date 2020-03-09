@@ -10,8 +10,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    [self createSubView];
-</string>
+	<string>createSubView</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3CB5E156-1956-457D-83B2-89BB28779896</string>
 	<key>IDECodeSnippetLanguage</key>

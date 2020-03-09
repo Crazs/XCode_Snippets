@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>CreateTableView</string>
+	<string>propertyUITableView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) UITableView * &lt;#view#&gt;;
+	<string>property (nonatomic, strong) UITableView * &lt;#view#&gt;;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>5AD2938B-41A1-443C-9482-9826A21E4D29</string>

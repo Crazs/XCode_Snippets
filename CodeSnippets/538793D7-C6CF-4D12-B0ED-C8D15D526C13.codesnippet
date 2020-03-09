@@ -10,15 +10,17 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>UIAlertController * sheet = [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleActionSheet];
-    UIAlertAction * camera = [UIAlertAction actionWithTitle:@"相机" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        
-    }];
-    UIAlertAction * library = [UIAlertAction actionWithTitle:@"相册" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        
-    }];
-    [sheet addAction:camera];
-    [sheet addAction:library];
-    [self presentViewController:sheet animated:YES completion:nil];</string>
+UIAlertAction * camera = [UIAlertAction actionWithTitle:@"相机" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+    
+}];
+UIAlertAction * library = [UIAlertAction actionWithTitle:@"相册" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+    
+}];
+UIAlertAction * cancel = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil];
+[sheet addAction:cancel];
+[sheet addAction:camera];
+[sheet addAction:library];
+[self presentViewController:sheet animated:YES completion:nil];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>538793D7-C6CF-4D12-B0ED-C8D15D526C13</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -30,6 +32,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

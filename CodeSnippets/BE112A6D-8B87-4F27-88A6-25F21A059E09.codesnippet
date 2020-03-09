@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>CreateMutableArray</string>
+	<string>propertyNSMutableArray</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) NSMutableArray * &lt;#dataSource#&gt;;
+	<string>property (nonatomic, strong) NSMutableArray * &lt;#dataSource#&gt;;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BE112A6D-8B87-4F27-88A6-25F21A059E09</string>

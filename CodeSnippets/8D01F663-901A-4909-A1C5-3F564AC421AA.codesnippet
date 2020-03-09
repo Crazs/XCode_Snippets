@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>CreateMutableDictionary</string>
+	<string>propertyNSMutableDictionary</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) NSMutableDictionary * &lt;#mDictionary#&gt;;
+	<string>property (nonatomic, strong) NSMutableDictionary * &lt;#mDictionary#&gt;;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>8D01F663-901A-4909-A1C5-3F564AC421AA</string>
